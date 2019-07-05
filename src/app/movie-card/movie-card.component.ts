@@ -15,13 +15,13 @@ export class MovieCardComponent {
 
   openDialog(movie) {
    //Uncomment the below block to pass the Testcase 1
-  /*
+  
     let dialogRef = this.dialog.open( MovieDetailsPopupComponent, {
     height: '600px',
     width: '800px',
     data: movie
     });
     dialogRef.componentInstance.movie = movie;
-   */
+   
   }
 }
